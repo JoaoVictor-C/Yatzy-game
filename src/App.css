@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #f5f5f5; 
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #333;
+}
+
+.game {
+    width: fit-content;
+    min-width: 65vw;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.game img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.game article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.dices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    border: 2px solid #fffffff2;
+    border-radius: 5px;
+}
+
+.dices:hover {
+    cursor: pointer;
+    border: 2px solid #e5ff00;
+    opacity: 0.8;
+}
+
+.dices:active {
+    opacity: 0.6;
+}
+
+.dicesAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.rollDice {
+    background-color: #f5f5f5;
+    border: 1px solid #0000006b;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rollDice:hover {
+    background-color: #eee;
+}
+
+.rollDice:active {
+    background-color: #ddd;
+}
+
+.gameActions {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.diceAction-Selected {
+    border: 3px solid #f4ff1ff2;
+    border-radius: 15px;
+}
+
+.diceAction-Selected:hover {
+    opacity: 0.8;
+}
+
+.diceAction-Selected:active {
+    opacity: 0.9;
+}
+
+.diceAction {
+    cursor: pointer;
+}
